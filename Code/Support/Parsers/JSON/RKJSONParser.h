@@ -1,5 +1,5 @@
 //
-//  RKJSONParserJSONKit.h
+//  RKJSONParser.h
 //  RestKit
 //
 //  Created by Blake Watters on 5/14/11.
@@ -20,7 +20,7 @@
 
 #import "RKParser.h"
 
-@interface RKJSONParserJSONKit : NSObject <RKParser> {
+@interface RKJSONParser : NSObject <RKParser> {
 }
 
 @end

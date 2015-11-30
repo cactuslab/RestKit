@@ -142,8 +142,8 @@
 		25160E37145650490060A5C5 /* NSString+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DAB145650490060A5C5 /* NSString+RKAdditions.m */; };
 		25160E38145650490060A5C5 /* NSURL+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DAC145650490060A5C5 /* NSURL+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160E39145650490060A5C5 /* NSURL+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DAD145650490060A5C5 /* NSURL+RKAdditions.m */; };
-		25160E3A145650490060A5C5 /* RKJSONParserJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DB0145650490060A5C5 /* RKJSONParserJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160E3B145650490060A5C5 /* RKJSONParserJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DB1145650490060A5C5 /* RKJSONParserJSONKit.m */; };
+		25160E3A145650490060A5C5 /* RKJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DB0145650490060A5C5 /* RKJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25160E3B145650490060A5C5 /* RKJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DB1145650490060A5C5 /* RKJSONParser.m */; };
 		25160E44145650490060A5C5 /* RestKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 25160DBB145650490060A5C5 /* RestKit-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160E45145650490060A5C5 /* RKAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DBC145650490060A5C5 /* RKAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160E46145650490060A5C5 /* RKAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DBD145650490060A5C5 /* RKAlert.m */; };
@@ -179,11 +179,6 @@
 		25160ED81456532C0060A5C5 /* FileMD5Hash_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 25160E971456532C0060A5C5 /* FileMD5Hash_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160ED91456532C0060A5C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 25160E981456532C0060A5C5 /* LICENSE */; };
 		25160EDA1456532C0060A5C5 /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = 25160E991456532C0060A5C5 /* NOTICE */; };
-		25160EDC1456532C0060A5C5 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 25160E9C1456532C0060A5C5 /* CHANGELOG.md */; };
-		25160EDD1456532C0060A5C5 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E9D1456532C0060A5C5 /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160EDE1456532C0060A5C5 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E9D1456532C0060A5C5 /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160EDF1456532C0060A5C5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E9E1456532C0060A5C5 /* JSONKit.m */; };
-		25160EE01456532C0060A5C5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E9E1456532C0060A5C5 /* JSONKit.m */; };
 		25160EE21456532C0060A5C5 /* lcl.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160EA21456532C0060A5C5 /* lcl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160EE31456532C0060A5C5 /* lcl.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160EA21456532C0060A5C5 /* lcl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160EE41456532C0060A5C5 /* lcl.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160EA31456532C0060A5C5 /* lcl.m */; };
@@ -316,8 +311,8 @@
 		25160F9A1456576C0060A5C5 /* RKSearchEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DC8145650490060A5C5 /* RKSearchEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160F9B1456576C0060A5C5 /* RKSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DC9145650490060A5C5 /* RKSearchEngine.m */; };
 		25160F9C1456576C0060A5C5 /* Support.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DCA145650490060A5C5 /* Support.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160F9E1456577F0060A5C5 /* RKJSONParserJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DB0145650490060A5C5 /* RKJSONParserJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160F9F1456577F0060A5C5 /* RKJSONParserJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DB1145650490060A5C5 /* RKJSONParserJSONKit.m */; };
+		25160F9E1456577F0060A5C5 /* RKJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DB0145650490060A5C5 /* RKJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25160F9F1456577F0060A5C5 /* RKJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DB1145650490060A5C5 /* RKJSONParser.m */; };
 		25160FA1145658BC0060A5C5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160FA0145658BC0060A5C5 /* libxml2.dylib */; };
 		251610581456F2330060A5C5 /* RKManagedObjectLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC71456F2330060A5C5 /* RKManagedObjectLoaderTest.m */; };
 		251610591456F2330060A5C5 /* RKManagedObjectLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC71456F2330060A5C5 /* RKManagedObjectLoaderTest.m */; };
@@ -464,8 +459,8 @@
 		251611111456F2340060A5C5 /* NSStringRestKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610531456F2330060A5C5 /* NSStringRestKitTest.m */; };
 		251611121456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610541456F2330060A5C5 /* RKDotNetDateFormatterTest.m */; };
 		251611131456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610541456F2330060A5C5 /* RKDotNetDateFormatterTest.m */; };
-		251611141456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610551456F2330060A5C5 /* RKJSONParserJSONKitTest.m */; };
-		251611151456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610551456F2330060A5C5 /* RKJSONParserJSONKitTest.m */; };
+		251611141456F2340060A5C5 /* RKJSONParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610551456F2330060A5C5 /* RKJSONParserTest.m */; };
+		251611151456F2340060A5C5 /* RKJSONParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610551456F2330060A5C5 /* RKJSONParserTest.m */; };
 		251611161456F2340060A5C5 /* RKPathMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610561456F2330060A5C5 /* RKPathMatcherTest.m */; };
 		251611171456F2340060A5C5 /* RKPathMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610561456F2330060A5C5 /* RKPathMatcherTest.m */; };
 		251611181456F2340060A5C5 /* RKXMLParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610571456F2330060A5C5 /* RKXMLParserTest.m */; };
@@ -893,8 +888,8 @@
 		25160DAB145650490060A5C5 /* NSString+RKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RKAdditions.m"; sourceTree = "<group>"; };
 		25160DAC145650490060A5C5 /* NSURL+RKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RKAdditions.h"; sourceTree = "<group>"; };
 		25160DAD145650490060A5C5 /* NSURL+RKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RKAdditions.m"; sourceTree = "<group>"; };
-		25160DB0145650490060A5C5 /* RKJSONParserJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKJSONParserJSONKit.h; sourceTree = "<group>"; };
-		25160DB1145650490060A5C5 /* RKJSONParserJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKJSONParserJSONKit.m; sourceTree = "<group>"; };
+		25160DB0145650490060A5C5 /* RKJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKJSONParser.h; sourceTree = "<group>"; };
+		25160DB1145650490060A5C5 /* RKJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKJSONParser.m; sourceTree = "<group>"; };
 		25160DBB145650490060A5C5 /* RestKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RestKit-Prefix.pch"; sourceTree = "<group>"; };
 		25160DBC145650490060A5C5 /* RKAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAlert.h; sourceTree = "<group>"; };
 		25160DBD145650490060A5C5 /* RKAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAlert.m; sourceTree = "<group>"; };
@@ -928,10 +923,6 @@
 		25160E981456532C0060A5C5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		25160E991456532C0060A5C5 /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
 		25160E9A1456532C0060A5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		25160E9C1456532C0060A5C5 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
-		25160E9D1456532C0060A5C5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		25160E9E1456532C0060A5C5 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		25160E9F1456532C0060A5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		25160EA21456532C0060A5C5 /* lcl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcl.h; sourceTree = "<group>"; };
 		25160EA31456532C0060A5C5 /* lcl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lcl.m; sourceTree = "<group>"; };
 		25160EA41456532C0060A5C5 /* lcl_config_components.template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcl_config_components.template.h; sourceTree = "<group>"; };
@@ -1035,7 +1026,7 @@
 		251610521456F2330060A5C5 /* NSDictionary+RKRequestSerializationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RKRequestSerializationTest.m"; sourceTree = "<group>"; };
 		251610531456F2330060A5C5 /* NSStringRestKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringRestKitTest.m; sourceTree = "<group>"; };
 		251610541456F2330060A5C5 /* RKDotNetDateFormatterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKDotNetDateFormatterTest.m; sourceTree = "<group>"; };
-		251610551456F2330060A5C5 /* RKJSONParserJSONKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKJSONParserJSONKitTest.m; sourceTree = "<group>"; };
+		251610551456F2330060A5C5 /* RKJSONParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKJSONParserTest.m; sourceTree = "<group>"; };
 		251610561456F2330060A5C5 /* RKPathMatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPathMatcherTest.m; sourceTree = "<group>"; };
 		251610571456F2330060A5C5 /* RKXMLParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKXMLParserTest.m; sourceTree = "<group>"; };
 		251611281456F50F0060A5C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -1571,8 +1562,8 @@
 		25160DAF145650490060A5C5 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				25160DB0145650490060A5C5 /* RKJSONParserJSONKit.h */,
-				25160DB1145650490060A5C5 /* RKJSONParserJSONKit.m */,
+				25160DB0145650490060A5C5 /* RKJSONParser.h */,
+				25160DB1145650490060A5C5 /* RKJSONParser.m */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -1603,7 +1594,6 @@
 				49D2759714C9E83E0090845D /* iso8601parser */,
 				25160E8E1456532C0060A5C5 /* cocoa-oauth */,
 				25160E941456532C0060A5C5 /* FileMD5Hash */,
-				25160E9B1456532C0060A5C5 /* JSONKit */,
 				25160EA01456532C0060A5C5 /* LibComponentLogging */,
 				25160EB71456532C0060A5C5 /* SOCKit */,
 			);
@@ -1633,17 +1623,6 @@
 				25160E9A1456532C0060A5C5 /* README.md */,
 			);
 			path = FileMD5Hash;
-			sourceTree = "<group>";
-		};
-		25160E9B1456532C0060A5C5 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				25160E9C1456532C0060A5C5 /* CHANGELOG.md */,
-				25160E9D1456532C0060A5C5 /* JSONKit.h */,
-				25160E9E1456532C0060A5C5 /* JSONKit.m */,
-				25160E9F1456532C0060A5C5 /* README.md */,
-			);
-			path = JSONKit;
 			sourceTree = "<group>";
 		};
 		25160EA01456532C0060A5C5 /* LibComponentLogging */ = {
@@ -1952,7 +1931,7 @@
 				251610521456F2330060A5C5 /* NSDictionary+RKRequestSerializationTest.m */,
 				251610531456F2330060A5C5 /* NSStringRestKitTest.m */,
 				251610541456F2330060A5C5 /* RKDotNetDateFormatterTest.m */,
-				251610551456F2330060A5C5 /* RKJSONParserJSONKitTest.m */,
+				251610551456F2330060A5C5 /* RKJSONParserTest.m */,
 				251610561456F2330060A5C5 /* RKPathMatcherTest.m */,
 				251610571456F2330060A5C5 /* RKXMLParserTest.m */,
 				252A2033153477870078F8AD /* NSArray+RKAdditionsTest.m */,
@@ -2194,7 +2173,7 @@
 				25160E34145650490060A5C5 /* NSDictionary+RKAdditions.h in Headers */,
 				25160E36145650490060A5C5 /* NSString+RKAdditions.h in Headers */,
 				25160E38145650490060A5C5 /* NSURL+RKAdditions.h in Headers */,
-				25160E3A145650490060A5C5 /* RKJSONParserJSONKit.h in Headers */,
+				25160E3A145650490060A5C5 /* RKJSONParser.h in Headers */,
 				25160E44145650490060A5C5 /* RestKit-Prefix.pch in Headers */,
 				25160E45145650490060A5C5 /* RKAlert.h in Headers */,
 				25160E47145650490060A5C5 /* RKDotNetDateFormatter.h in Headers */,
@@ -2209,7 +2188,6 @@
 				25160ECE1456532C0060A5C5 /* NSData+Base64.h in Headers */,
 				25160ED51456532C0060A5C5 /* FileMD5Hash.h in Headers */,
 				25160ED71456532C0060A5C5 /* FileMD5Hash_Prefix.pch in Headers */,
-				25160EDD1456532C0060A5C5 /* JSONKit.h in Headers */,
 				25160EE21456532C0060A5C5 /* lcl.h in Headers */,
 				25160EE61456532C0060A5C5 /* lcl_config_components.template.h in Headers */,
 				25160EE81456532C0060A5C5 /* lcl_config_extensions.template.h in Headers */,
@@ -2284,7 +2262,6 @@
 				25160ECF1456532C0060A5C5 /* NSData+Base64.h in Headers */,
 				25160ED61456532C0060A5C5 /* FileMD5Hash.h in Headers */,
 				25160ED81456532C0060A5C5 /* FileMD5Hash_Prefix.pch in Headers */,
-				25160EDE1456532C0060A5C5 /* JSONKit.h in Headers */,
 				25160EE31456532C0060A5C5 /* lcl.h in Headers */,
 				25160EE71456532C0060A5C5 /* lcl_config_components.template.h in Headers */,
 				25160EE91456532C0060A5C5 /* lcl_config_extensions.template.h in Headers */,
@@ -2354,7 +2331,7 @@
 				25160F981456576C0060A5C5 /* RKPathMatcher.h in Headers */,
 				25160F9A1456576C0060A5C5 /* RKSearchEngine.h in Headers */,
 				25160F9C1456576C0060A5C5 /* Support.h in Headers */,
-				25160F9E1456577F0060A5C5 /* RKJSONParserJSONKit.h in Headers */,
+				25160F9E1456577F0060A5C5 /* RKJSONParser.h in Headers */,
 				25160F25145655AF0060A5C5 /* RestKit.h in Headers */,
 				25B408271491CDDC00F21111 /* RKDirectory.h in Headers */,
 				2513504F14B8FE6B00A7E893 /* RKConfigurationDelegate.h in Headers */,
@@ -2438,7 +2415,7 @@
 			name = RestKitTests;
 			productName = RestKitTests;
 			productReference = 25160D2614564E820060A5C5 /* RestKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		25160E61145651060060A5C5 /* RestKitFramework */ = {
 			isa = PBXNativeTarget;
@@ -2476,7 +2453,7 @@
 			name = RestKitFrameworkTests;
 			productName = RestKitFrameworkTests;
 			productReference = 25160E78145651060060A5C5 /* RestKitFrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		259C301515128079003066A2 /* RestKitResources */ = {
 			isa = PBXNativeTarget;
@@ -2578,7 +2555,6 @@
 			files = (
 				25160ED91456532C0060A5C5 /* LICENSE in Resources */,
 				25160EDA1456532C0060A5C5 /* NOTICE in Resources */,
-				25160EDC1456532C0060A5C5 /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2741,7 +2717,7 @@
 				25160E35145650490060A5C5 /* NSDictionary+RKAdditions.m in Sources */,
 				25160E37145650490060A5C5 /* NSString+RKAdditions.m in Sources */,
 				25160E39145650490060A5C5 /* NSURL+RKAdditions.m in Sources */,
-				25160E3B145650490060A5C5 /* RKJSONParserJSONKit.m in Sources */,
+				25160E3B145650490060A5C5 /* RKJSONParser.m in Sources */,
 				25160E46145650490060A5C5 /* RKAlert.m in Sources */,
 				25160E48145650490060A5C5 /* RKDotNetDateFormatter.m in Sources */,
 				25160E4B145650490060A5C5 /* RKLog.m in Sources */,
@@ -2751,7 +2727,6 @@
 				25160ECC1456532C0060A5C5 /* GCOAuth.m in Sources */,
 				25160ED01456532C0060A5C5 /* NSData+Base64.m in Sources */,
 				25160ED31456532C0060A5C5 /* FileMD5Hash.c in Sources */,
-				25160EDF1456532C0060A5C5 /* JSONKit.m in Sources */,
 				25160EE41456532C0060A5C5 /* lcl.m in Sources */,
 				25160EFA1456532C0060A5C5 /* LCLNSLog.m in Sources */,
 				25160F0A1456532C0060A5C5 /* SOCKit.m in Sources */,
@@ -2854,7 +2829,7 @@
 				2516110E1456F2340060A5C5 /* NSDictionary+RKRequestSerializationTest.m in Sources */,
 				251611101456F2340060A5C5 /* NSStringRestKitTest.m in Sources */,
 				251611121456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */,
-				251611141456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */,
+				251611141456F2340060A5C5 /* RKJSONParserTest.m in Sources */,
 				251611161456F2340060A5C5 /* RKPathMatcherTest.m in Sources */,
 				251611181456F2340060A5C5 /* RKXMLParserTest.m in Sources */,
 				254A62C014AD591C00939BEE /* RKObjectPaginatorTest.m in Sources */,
@@ -2904,7 +2879,6 @@
 				25160ECD1456532C0060A5C5 /* GCOAuth.m in Sources */,
 				25160ED11456532C0060A5C5 /* NSData+Base64.m in Sources */,
 				25160ED41456532C0060A5C5 /* FileMD5Hash.c in Sources */,
-				25160EE01456532C0060A5C5 /* JSONKit.m in Sources */,
 				25160EE51456532C0060A5C5 /* lcl.m in Sources */,
 				25160EFB1456532C0060A5C5 /* LCLNSLog.m in Sources */,
 				25160F0B1456532C0060A5C5 /* SOCKit.m in Sources */,
@@ -2955,7 +2929,7 @@
 				25160F961456576C0060A5C5 /* RKMIMETypes.m in Sources */,
 				25160F991456576C0060A5C5 /* RKPathMatcher.m in Sources */,
 				25160F9B1456576C0060A5C5 /* RKSearchEngine.m in Sources */,
-				25160F9F1456577F0060A5C5 /* RKJSONParserJSONKit.m in Sources */,
+				25160F9F1456577F0060A5C5 /* RKJSONParser.m in Sources */,
 				25B408291491CDDC00F21111 /* RKDirectory.m in Sources */,
 				254A62BC14AD544200939BEE /* RKObjectPaginator.m in Sources */,
 				250DF22D14C5190E0001DEFA /* RKOrderedDictionary.m in Sources */,
@@ -3044,7 +3018,7 @@
 				2516110F1456F2340060A5C5 /* NSDictionary+RKRequestSerializationTest.m in Sources */,
 				251611111456F2340060A5C5 /* NSStringRestKitTest.m in Sources */,
 				251611131456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */,
-				251611151456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */,
+				251611151456F2340060A5C5 /* RKJSONParserTest.m in Sources */,
 				251611171456F2340060A5C5 /* RKPathMatcherTest.m in Sources */,
 				251611191456F2340060A5C5 /* RKXMLParserTest.m in Sources */,
 				254A62C114AD591C00939BEE /* RKObjectPaginatorTest.m in Sources */,

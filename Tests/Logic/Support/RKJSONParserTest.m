@@ -1,5 +1,5 @@
 //
-//  RKJSONParserJSONKitTest.m
+//  RKJSONParserTest.m
 //  RestKit
 //
 //  Created by Blake Watters on 7/6/11.
@@ -19,18 +19,18 @@
 //
 
 #import "RKTestEnvironment.h"
-#import "RKJSONParserJSONKit.h"
+#import "RKJSONParser.h"
 
-@interface RKJSONParserJSONKitTest : RKTestCase
+@interface RKJSONParserTest : RKTestCase
 
 @end
 
-@implementation RKJSONParserJSONKitTest
+@implementation RKJSONParserTest
 
 - (void)testShouldParseEmptyResults
 {
     NSError *error = nil;
-    RKJSONParserJSONKit *parser = [[RKJSONParserJSONKit new] autorelease];
+    RKJSONParser *parser = [[RKJSONParser new] autorelease];
     id parsingResult = [parser objectFromString:nil error:&error];
     assertThat(parsingResult, is(equalTo(nil)));
     assertThat(error, is(equalTo(nil)));

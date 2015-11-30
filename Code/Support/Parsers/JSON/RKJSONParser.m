@@ -1,5 +1,5 @@
 //
-//  RKJSONParserJSONKit.m
+//  RKJSONParser.m
 //  RestKit
 //
 //  Created by Jeff Arena on 3/16/10.
@@ -18,8 +18,7 @@
 //  limitations under the License.
 //
 
-#import "RKJSONParserJSONKit.h"
-#import "JSONKit.h"
+#import "RKJSONParser.h"
 #import "RKLog.h"
 
 // Set Logging Component
@@ -27,19 +26,19 @@
 #define RKLogComponent lcl_cRestKitSupportParsers
 
 
-// TODO: JSONKit serializer instance should be reused to enable leverage
-// the internal caching capabilities from the JSONKit serializer
-@implementation RKJSONParserJSONKit
+@implementation RKJSONParser
 
 - (NSDictionary *)objectFromString:(NSString *)string error:(NSError **)error
 {
     RKLogTrace(@"string='%@'", string);
-    return [string objectFromJSONStringWithParseOptions:JKParseOptionStrict error:error];
+    NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
+    return [NSJSONSerialization JSONObjectWithData:data options:0 error:error];
 }
 
 - (NSString *)stringFromObject:(id)object error:(NSError **)error
 {
-    return [object JSONStringWithOptions:JKSerializeOptionNone error:error];
+    NSData *data = [NSJSONSerialization dataWithJSONObject:object options:0 error:error];
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
 @end

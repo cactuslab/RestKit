@@ -21,7 +21,7 @@
 #import "RKTestEnvironment.h"
 #import "RKObjectMappingProvider.h"
 #import "RKErrorMessage.h"
-#import "RKJSONParserJSONKit.h"
+#import "RKJSONParser.h"
 
 // Models
 #import "RKObjectLoaderTestResultModel.h"
@@ -348,7 +348,7 @@
     RKObjectMapping *serializationMapping = [mapping inverseMapping];
 
     RKObjectManager *objectManager = [RKTestFactory objectManager];
-    [[RKParserRegistry sharedRegistry] setParserClass:[RKJSONParserJSONKit class] forMIMEType:@"text/html"];
+    [[RKParserRegistry sharedRegistry] setParserClass:[RKJSONParser class] forMIMEType:@"text/html"];
     [objectManager.router routeClass:[RKTestComplexUser class] toResourcePath:@"/noMIME"];
     [objectManager.mappingProvider setSerializationMapping:serializationMapping forClass:[RKTestComplexUser class]];
 
